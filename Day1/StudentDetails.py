@@ -1,0 +1,15 @@
+stid=int(input("Enter the student id"))
+sname=input("Enter the name os the Student")
+marks_m=int(input("Enter the math marks of student"))
+marks_p=int(input("Enter the phy marks of student"))
+marks_c=int(input("Enter the chem marks of student"))
+total=marks_c+marks_m+marks_p
+avg=total/3
+print("Student Detils :")
+print("Id:",stid)
+print("Name:",sname)
+print("Math marks : ",marks_m)
+print("Phy marks : ",marks_p)
+print("Chem marks : ",marks_c)
+print("Total marks : ",total)
+print(f"Average marks : {round(avg,2)}")

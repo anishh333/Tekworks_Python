@@ -1,0 +1,11 @@
+c_no=int(input("Enter your pho number "))
+c_name=input("Enter your name ")
+pmr=int(input("Enter your present  month readings "))
+lmr=int(input("Enter your last month readings "))
+
+print("Number : ",c_no)
+print("Name : ",c_name)
+print("Present month readings : ",pmr)
+print("Last month readings : ",lmr)
+print(f"Total units used is : {pmr-lmr}")
+print(f"Current Bill : {round((pmr-lmr)*3.80,2)}")
